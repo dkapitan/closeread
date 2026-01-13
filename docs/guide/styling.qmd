@@ -68,10 +68,7 @@ For example, if you want adjust the transition speed of `.cr-section` you can ov
 
 ```css
 # line 48-53 in closeread.css
-.cr-section .sticky-col .sticky-col-stack .sticky {
-  grid-area: 1/1;
-  margin: auto;
-  opacity: 0;
-  transition: opacity linear 0.5s, color 0.7s linear, transform 1s ease-in-out, transform-origin 1s ease-in-out;
+.cr-section .sticky {
+  transition: opacity linear 2s;
 }
 ```
